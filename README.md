@@ -129,5 +129,15 @@ See
     docker volume rm neterial
     ```
 
+### Removing account
+
+> **Warning**  
+> This operation will remove your account completely.
+>You will retain access to your clusters, but managing them using the Neterial platform will be unavailable.
+
+```sh
+docker run --rm -ti -v neterial:/app/config ghcr.io/neterialio/cli account delete
+```
+
 That's it.
 
