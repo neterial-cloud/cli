@@ -20,7 +20,7 @@ and receive €20 in Hetzner Cloud credits.
 1. Login
 
     ```sh
-    docker run --rm -ti -p 9999:9999 -v neterial:/app/config ghcr.io/neterialio/cli init
+    docker run --pull=always --rm -ti -p 9999:9999 -v neterial:/app/config ghcr.io/neterialio/cli init
     ```
 
 2. Create a Kubernetes cluster
