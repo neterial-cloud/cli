@@ -11,6 +11,18 @@ This method works on Linux, macOS, and Windows Subsystem for Linux (WSL):
 curl -sSL https://raw.githubusercontent.com/neterialio/cli/refs/heads/main/install_cli.sh | bash
 ```
 
+Restart your shell or run:
+
+```sh
+source ~/.bashrc
+```
+
+Check:
+
+```sh
+neterial -h
+```
+
 ## Platform-Specific Installation
 
 ### macOS (Homebrew Required)
@@ -38,7 +50,7 @@ wsl --install
 
 Or if Linux distro already installed:
 
-```
+```sh
 wsl
 ```
 
@@ -46,6 +58,12 @@ Run in the Linux terminal:
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/neterialio/cli/refs/heads/main/install_cli.sh | bash
+```
+
+Restart your shell or run:
+
+```sh
+source ~/.bashrc
 ```
 
 Check:
