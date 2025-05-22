@@ -1,8 +1,5 @@
 # Installing the Neterial CLI
 
-⚠️ **Note:** The installation script is currently experimental.
-Use it with caution and review the script before running.
-
 ## Quick Install (Linux, macOS, and Windows WSL)
 
 This method works on Linux, macOS, and Windows Subsystem for Linux (WSL):
