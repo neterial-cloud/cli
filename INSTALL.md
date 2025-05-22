@@ -5,7 +5,7 @@
 This method works on Linux, macOS, and Windows Subsystem for Linux (WSL):
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/neterialio/cli/refs/heads/main/install_cli.sh | bash
+curl -sSL https://get.neterial.io/cli.sh | bash
 ```
 
 Restart your shell or run:
@@ -54,7 +54,7 @@ wsl
 Run in the Linux terminal:
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/neterialio/cli/refs/heads/main/install_cli.sh | bash
+curl -sSL https://get.neterial.io/cli.sh | bash
 ```
 
 Restart your shell or run:
