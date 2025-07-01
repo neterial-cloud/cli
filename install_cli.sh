@@ -85,7 +85,7 @@ for cmd in curl tar; do
 done
 
 ### 6. Download & extract with failure checks
-VERSION=${VERSION:-"v0.1.0"}     # override as needed
+VERSION=${VERSION:-"v0.2.0"}     # override as needed
 REPO="github.com/neterialio/cli"
 TARBALL="neterial-${VERSION}-${OS}-${ARCH}.tar.gz"
 URL="https://${REPO}/releases/download/${VERSION}/${TARBALL}"
