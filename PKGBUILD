@@ -1,7 +1,7 @@
 # Maintainer: Neterial <info@neterial.io>
 
 pkgname=neterial-cli
-pkgver=0.2.0
+pkgver=0.3.0
 pkgrel=1
 pkgdesc="CLI for Neterial services"
 arch=('x86_64')
@@ -12,7 +12,7 @@ conflicts=('neterial')
 options=(!strip !debug)
 
 source_x86_64=("https://github.com/neterialio/cli/releases/download/v${pkgver}/neterial-v${pkgver}-linux-amd64.tar.gz")
-sha256sums_x86_64=('5d1b805f1a05fd5832df760ad24e880480a168e6f2e72a3397fb06693b9a068b')
+sha256sums_x86_64=('68fe2bbdf18ff7cbd2b704719d3be20b70be5621c0d50f87cd3b9b11769203bc')
 
 package() {
   cd "${srcdir}"
