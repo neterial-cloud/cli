@@ -25,7 +25,7 @@ neterial -h
 ### macOS (Homebrew Required)
 
 ```sh
-brew tap neterialio/tap
+brew tap neterial-cloud/tap
 brew install neterial-cli
 ```
 
@@ -72,7 +72,7 @@ neterial -h
 ### Arch Linux
 
 ```sh
-git clone https://github.com/neterialio/cli.git
+git clone https://github.com/neterial-cloud/cli.git
 cd cli
 makepkg -si
 ```

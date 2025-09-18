@@ -11,7 +11,7 @@ provides=('neterial')
 conflicts=('neterial')
 options=(!strip !debug)
 
-source_x86_64=("https://github.com/neterialio/cli/releases/download/v${pkgver}/neterial-v${pkgver}-linux-amd64.tar.gz")
+source_x86_64=("https://github.com/neterial-cloud/cli/releases/download/v${pkgver}/neterial-v${pkgver}-linux-amd64.tar.gz")
 sha256sums_x86_64=('68fe2bbdf18ff7cbd2b704719d3be20b70be5621c0d50f87cd3b9b11769203bc')
 
 package() {

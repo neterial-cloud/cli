@@ -29,7 +29,7 @@ if [ "$OS" = "darwin" ]; then
     fi
 
     echo "→ Installing neterial via Homebrew..."
-    brew tap neterialio/tap || die "Failed to tap neterialio/tap"
+    brew tap neterial-cloud/tap || die "Failed to tap neterial-cloud/tap"
     brew install neterial-cli || die "Failed to install neterial-cli"
 
     # Verify installation
@@ -86,7 +86,7 @@ done
 
 ### 6. Download & extract with failure checks
 VERSION=${VERSION:-"v0.3.0"}     # override as needed
-REPO="github.com/neterialio/cli"
+REPO="github.com/neterial-cloud/cli"
 TARBALL="neterial-${VERSION}-${OS}-${ARCH}.tar.gz"
 URL="https://${REPO}/releases/download/${VERSION}/${TARBALL}"
 
